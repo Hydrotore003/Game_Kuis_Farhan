@@ -609,38 +609,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6dc6666159715745aef08e48a7ede6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _soalSoal:
-  - hint: {fileID: 21300000, guid: 69e60ffe695fe374f85a4a80742b3204, type: 3}
-    pertanyaan: Warna dari Daun adalah?
-    jawabanTeks:
-    - Pink
-    - Hijau
-    - Putih
-    - Ungu
-    adalahbenar: 00010000
-  - hint: {fileID: 21300000, guid: 67265a4444a068a469f694dc5664b3b8, type: 3}
-    pertanyaan: Warna dari Langit adalah?
-    jawabanTeks:
-    - Merah
-    - Biru
-    - Hijau
-    - Kuning
-    adalahbenar: 00010000
-  - hint: {fileID: 21300000, guid: f6d762bd2f7ac5a48ac0dd391914ef02, type: 3}
-    pertanyaan: Warna dari Mawar adalah?
-    jawabanTeks:
-    - Merah
-    - Biru
-    - Hijau
-    - Kuning
-    adalahbenar: 01000000
   _tempatPertanyaan: {fileID: 1873390899}
   _tempatPilihanJawaban:
   - {fileID: 1761637775}
   - {fileID: 1790689288}
   - {fileID: 97778960}
   - {fileID: 1483266740}
-  _nomorSoal: {fileID: 1873390899}
+  _playerProgress: {fileID: 11400000, guid: 9eeddf226bda6f04f8e18586d6264cc9, type: 2}
+  _soalSoal: {fileID: 11400000, guid: c06c678c5658e8a43bb23218681a2450, type: 2}
 --- !u!4 &194673836
 Transform:
   m_ObjectHideFlags: 0
