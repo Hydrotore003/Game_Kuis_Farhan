@@ -25,6 +25,7 @@ public class UI_Pertanyaan : MonoBehaviour
     {
         _tempatTeks.text = teksPertanyaan;
         _tempatGambar.sprite = gambarHint;
+        _tempatJudulLevel.text = pertanyaan;
     }
 
     public void SetSoal(string teksJudulLevel)
