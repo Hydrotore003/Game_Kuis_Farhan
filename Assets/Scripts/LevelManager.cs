@@ -31,6 +31,15 @@ public class LevelManager : MonoBehaviour
    [SerializeField]
    private string _namaScenePilihMenu = string.Empty;
 
+   [SerializeField]
+   private PemanggilSuara _pemanggilSuara = null;
+
+   [SerializeField]
+   private AudioClip _suaraMenang = null;
+
+   [SerializeField]
+   private AudioClip _suaraKalah = null;
+
    //[SerializeField]
    //private UI_Pertanyaan _nomorSoal = null;
 
@@ -60,6 +69,8 @@ public class LevelManager : MonoBehaviour
 
    private void UI_PoinJawaban_EventJawabSoal(string jawaban, bool adalahBenar)
    {
+     _pemanggilSuara.PanggilSuara(adalahBenar ? _suaraMenang : _suaraKalah);
+
      if (!adalahBenar) return;
 
      string namaLevelPack = _inisialData.levelPack.name;

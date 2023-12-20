@@ -614,6 +614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194673836}
   - component: {fileID: 194673835}
+  - component: {fileID: 194673837}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -642,6 +643,9 @@ MonoBehaviour:
   - {fileID: 1483266740}
   _gameSceneManager: {fileID: 1165866286}
   _namaScenePilihMenu: Menu Pilih Level
+  _pemanggilSuara: {fileID: 194673837}
+  _suaraMenang: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+  _suaraKalah: {fileID: 8300000, guid: cabfae866cab347928b74b7d0ca6bfa9, type: 3}
   _playerProgress: {fileID: 11400000, guid: 9eeddf226bda6f04f8e18586d6264cc9, type: 2}
   _soalSoal: {fileID: 0}
 --- !u!4 &194673836
@@ -659,6 +663,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &194673837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194673834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &258507403
 GameObject:
   m_ObjectHideFlags: 0
