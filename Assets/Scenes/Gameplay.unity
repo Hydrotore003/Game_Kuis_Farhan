@@ -1095,7 +1095,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 367553445}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6096669762427853778, guid: f11f3fc5a485e6d4c9a3fc890aa54ad3, type: 3}
+        m_TargetAssemblyTypeName: GameSceneManager, Assembly-CSharp
+        m_MethodName: BukaScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Gameplay
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &367553445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2222,6 +2234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc31babb06080174396ed786fb89c89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 2033758751}
   _opsiMenang: {fileID: 681772464}
   _opsiKalah: {fileID: 602865944}
   _tempatPesan: {fileID: 183201508}
@@ -4412,8 +4425,9 @@ GameObject:
   - component: {fileID: 2033758749}
   - component: {fileID: 2033758748}
   - component: {fileID: 2033758747}
+  - component: {fileID: 2033758751}
   m_Layer: 5
-  m_Name: Main Canvas
+  m_Name: Gameplay Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4506,6 +4520,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &2033758751
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033758746}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92fb8c95db340af4ead4f39fb8da2ce4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

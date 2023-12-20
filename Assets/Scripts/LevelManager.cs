@@ -41,12 +41,7 @@ public class LevelManager : MonoBehaviour
 
    private void Start()
    {
-         // Check juka tidak berhasil memuat progress
-         if (!_playerProgress.MuatProgress())
-         {
-           // Buat simpanan progress atau ganti dengan yang baru
-          _playerProgress.SimpanProgress();
-         }
+         
         
         //_playerProgress.SimpanProgress();
 
@@ -66,9 +61,21 @@ public class LevelManager : MonoBehaviour
 
    private void UI_PoinJawaban_EventJawabSoal(string jawaban, bool adalahBenar)
    {
-     if (adalahBenar)
+     if (!adalahBenar) return;
+
+     string namaLevelPack = _inisialData.levelPack.name;
+     int levelTerakhir = _playerProgress.progressData.progressLevel[namaLevelPack];
+
+     if (_indexSoal + 2 > levelTerakhir)
      {
+          // tambahkan koin sebagai hadiah menyelesaikan koin
           _playerProgress.progressData.koin += 20;
+
+          // Membuka level selanjutnya agar dapat diakses di menu level
+          _playerProgress.progressData.progressLevel[namaLevelPack] = _indexSoal + 2;
+
+          _playerProgress.SimpanProgress();
+          
      }
    }
 
