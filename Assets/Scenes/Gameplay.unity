@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 97778958}
   - component: {fileID: 97778957}
   - component: {fileID: 97778960}
+  - component: {fileID: 97778961}
   m_Layer: 5
   m_Name: Button C
   m_TagString: Untagged
@@ -318,6 +319,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 97778961}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &97778958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,6 +383,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _teksJawaban: {fileID: 1268405041}
   _adalahBenar: 1
+--- !u!114 &97778961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97778955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &165170355
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +760,7 @@ GameObject:
   - component: {fileID: 282345250}
   - component: {fileID: 282345249}
   - component: {fileID: 282345248}
+  - component: {fileID: 282345251}
   m_Layer: 5
   m_Name: Button Menu
   m_TagString: Untagged
@@ -830,6 +856,18 @@ MonoBehaviour:
           m_StringArgument: Menu Pilih Level
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 282345251}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: a0010a1a0c474473b81729eb770c485f, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &282345249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -868,6 +906,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282345246}
   m_CullTransparentMesh: 1
+--- !u!114 &282345251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282345246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &292344454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1075,7 @@ GameObject:
   - component: {fileID: 367553446}
   - component: {fileID: 367553445}
   - component: {fileID: 367553444}
+  - component: {fileID: 367553447}
   m_Layer: 5
   m_Name: Button Ulang
   m_TagString: Untagged
@@ -1108,6 +1159,18 @@ MonoBehaviour:
           m_StringArgument: Gameplay
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 367553447}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 5039414d94a6e4e70a5ab9e8833e992a, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &367553445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,6 +1209,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367553442}
   m_CullTransparentMesh: 1
+--- !u!114 &367553447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367553442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &489191282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,6 +2513,7 @@ GameObject:
   - component: {fileID: 1120666838}
   - component: {fileID: 1120666837}
   - component: {fileID: 1120666836}
+  - component: {fileID: 1120666839}
   m_Layer: 5
   m_Name: Button Lanjut
   m_TagString: Untagged
@@ -2569,6 +2645,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1120666839}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: df729d213c4be44a9b55cd109f5cd4f9, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1120666837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2607,6 +2695,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120666834}
   m_CullTransparentMesh: 1
+--- !u!114 &1120666839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120666834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1165866285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2939,6 +3039,7 @@ GameObject:
   - component: {fileID: 1483266738}
   - component: {fileID: 1483266737}
   - component: {fileID: 1483266740}
+  - component: {fileID: 1483266741}
   m_Layer: 5
   m_Name: Button D
   m_TagString: Untagged
@@ -3046,6 +3147,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1483266741}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1483266738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3098,6 +3211,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _teksJawaban: {fileID: 797693500}
   _adalahBenar: 1
+--- !u!114 &1483266741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483266735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1529267598
 GameObject:
   m_ObjectHideFlags: 0
@@ -3320,6 +3445,7 @@ GameObject:
   - component: {fileID: 1761637773}
   - component: {fileID: 1761637772}
   - component: {fileID: 1761637775}
+  - component: {fileID: 1761637776}
   m_Layer: 5
   m_Name: Button A
   m_TagString: Untagged
@@ -3427,6 +3553,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1761637776}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1761637773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3479,6 +3617,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _teksJawaban: {fileID: 1939993938}
   _adalahBenar: 1
+--- !u!114 &1761637776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761637770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1773437927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,6 +3776,7 @@ GameObject:
   - component: {fileID: 1790689286}
   - component: {fileID: 1790689285}
   - component: {fileID: 1790689288}
+  - component: {fileID: 1790689289}
   m_Layer: 5
   m_Name: Button B
   m_TagString: Untagged
@@ -3733,6 +3884,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1790689289}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1790689286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,6 +3948,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _teksJawaban: {fileID: 1947779471}
   _adalahBenar: 1
+--- !u!114 &1790689289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790689283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf547ceb6044ba83b34a3b2f7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1839035845
 GameObject:
   m_ObjectHideFlags: 0
