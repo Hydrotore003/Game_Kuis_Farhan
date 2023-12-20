@@ -40,15 +40,14 @@ public class LevelManager : MonoBehaviour
    private PlayerProgress _playerProgress = null;
 
    private void Start()
-   {
-         
-        
+   {      
         //_playerProgress.SimpanProgress();
 
         _soalSoal = _inisialData.levelPack;
         _indexSoal = _inisialData.levelIndex - 1;
 
         NextLevel();
+        AudioManager.instance.PlayBGM(1);
 
         // Subscribe events
         UI_PoinJawaban.EventJawabanSoal += UI_PoinJawaban_EventJawabSoal;
@@ -75,7 +74,7 @@ public class LevelManager : MonoBehaviour
           _playerProgress.progressData.progressLevel[namaLevelPack] = _indexSoal + 2;
 
           _playerProgress.SimpanProgress();
-          
+
      }
    }
 
