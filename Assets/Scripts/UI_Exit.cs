@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class UI_Exit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         Button exitButton = GetComponent<Button>();
 
@@ -14,8 +13,7 @@ public class UI_Exit : MonoBehaviour
         exitButton.onClick.AddListener(ExitGame);
     }
 
-    // Update is called once per frame
-    void ExitGame()
+    public void ExitGame()
     {
         #if UNITY_STANDALONE
             Application.Quit();
